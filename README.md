@@ -1,6 +1,8 @@
 # Clerk Pro
 Tool for browsing and searching Clerk users.
 
+![clerk-pro dashboard](https://raw.githubusercontent.com/danicodeve/clerk-pro/main/public/images/clerk-pro.png)
+
 ### Installation
 1. Clone repository
 2. Add your Clerk secret key to .env.local
