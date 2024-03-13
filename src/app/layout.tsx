@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 const RootLayout = ({ children }: Readonly<{ children: React.ReactNode }>) => {
   return (
     <html lang='en'>
-      <body className='min-h-screen bg-background'>
+      <body className='flex min-h-screen flex-col bg-background'>
         <NonSsrWrapper>
           <ThemeProvider
             attribute='class'
@@ -35,6 +35,14 @@ const RootLayout = ({ children }: Readonly<{ children: React.ReactNode }>) => {
                 </div>
               </header>
               {children}
+              <footer className='mt-auto flex items-center justify-center p-5 text-sm text-muted-foreground'>
+                <span>
+                  This tool is meant to be run locally and is available fully
+                  open-source for inspection. Always keep your private keys safe
+                  and use caution when interacting with any tool or service that
+                  requests them.
+                </span>
+              </footer>
             </Providers>
           </ThemeProvider>
         </NonSsrWrapper>

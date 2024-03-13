@@ -21,6 +21,10 @@ Tool for browsing and searching Clerk users.
 ### Shameless Self-promo
 I'm available for hire, my resume @ https://www.linkedin.com/in/danicode/
 
+### Protect Your Private Keys
+This tool is meant to be run locally and is available fully open-source for inspection. Always keep your private keys safe and use caution when interacting with any tool or service that requests them.
+
+
 ### Disclaimer
 This project is not affiliated with Clerk, Inc. Use at your own risk.
 
